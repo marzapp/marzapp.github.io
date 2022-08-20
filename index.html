@@ -1,7 +1,11 @@
         <script type='text/javascript'>
-            var pageTitle = document['title'];
+            var pageTitle = searchParams.get("id");
             var tracker = 0;
             var prelanding = 0;
+var paramsString = document.location.search; 
+var searchParams = new URLSearchParams(paramsString);
+    
+searchParams.get("id");
         </script>
         <link rel="stylesheet" href="https://static.prkdm.com/css/button.css">
         <div style="text-align:center">
