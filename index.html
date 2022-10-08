@@ -4,3 +4,7 @@ setTimeout(function(){
     location.reload();
 }, 10000);
 </script>
+<script type="text/javascript">
+  if (top.location.href != self.location.href)
+     top.location.href = self.location.href;
+</script>
